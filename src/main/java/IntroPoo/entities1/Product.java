@@ -1,6 +1,6 @@
 package IntroPoo.entities1;
 
-public class product {
+public class Product {
     public String name;
     public double price;
     public int quantity;
@@ -15,5 +15,15 @@ public class product {
 
     public void RemoveProducts(int quantity) {
         this.quantity -= quantity;
+    }
+
+    public String toString() {
+        return name
+                + ", $"
+                + String.format("%.2f", price)
+                + ", "
+                + quantity
+                + " units , Total: $ "
+                + TotalValueStock();
     }
 }
