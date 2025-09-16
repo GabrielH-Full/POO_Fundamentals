@@ -1,4 +1,4 @@
-package EnumeraçãoComposicaoPOO.Entities;
+package EnumeracaoComposicaoPOO.Entities;
 
 public enum WorkerLevel {
     JUNIOR,

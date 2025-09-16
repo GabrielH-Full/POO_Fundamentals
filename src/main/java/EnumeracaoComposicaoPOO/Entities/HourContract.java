@@ -1,4 +1,4 @@
-package EnumeraçãoComposicaoPOO.Entities;
+package EnumeracaoComposicaoPOO.Entities;
 
 import java.util.Date;
 
@@ -35,5 +35,9 @@ public class HourContract {
 
     public void setHours(Integer hours) {
         this.hours = hours;
+    }
+
+    public Double totalValuerPerHour() {
+        return ValuerPerHour * hours;
     }
 }
